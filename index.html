@@ -12,18 +12,18 @@
         <div class="nav-left">
             <img class="mylogo" src="./images/mylogo.jpg" alt="">
             <ul class="nav" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Work</a></li>
+                <li><a href="#herosectioncontainer">Home</a></li>
+                <li><a href="#minigallery">Work</a></li>
                 <li><a href="#about-me">Biography</a></li>
-                <li><a href="#">Blogs</a></li>
+                <li><a href="#blogwords">Blogs</a></li>
             </ul>
         </div>
         <ul>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#contactmeee">Contact us</a></li>
         </ul>
     </header>
 
-    <div class="hero-section container">
+    <div class="hero-section container" id="herosectioncontainer">
         <div class="landingwords" >
             <span class="greeting">HELLO, I am</span>
             <h1 class="myname">Karam</h1>
@@ -47,7 +47,7 @@
     -Robert Capa
 </div>
 
-<div class="minigallery" >
+<div class="minigallery" id="minigallery"  >
 
 
 
@@ -60,10 +60,12 @@
 
 <div class="picsforgallery">
 
-<img src="./images/hamaki/HAM3.JPG" alt="">
-<img src="./images/brand shoot/BRA4.JPG" alt="">
-<img src="./images/ahmed saad/AS3.JPG" alt="">
-<img src="./images/khaled mounib/KHA3.JPG" alt="">
+
+    <a href="Hamaki.html" target="_blank"><img src="./images/hamaki/HAM3.JPG" alt=""></a>
+    <a href="Brand.html" target="_blank"><img src="./images/brand shoot/BRA4.JPG" alt=""></a>
+    <a href="Asaad.html" target="_blank"><img src="./images/ahmed saad/AS3.JPG" alt=""></a>
+    <a href="Mounib.html" target="_blank"><img src="./images/khaled mounib/KHA3.JPG" alt=""></a>
+
 </div>
 
 </figure>
@@ -72,19 +74,26 @@
 </div>
 
 
-<div class="blogwords" >
+<div class="blogwords"  id="blogwords" >
 <figure>
     <figcaption>Previous Posts</figcaption>
 
-    <img src="./images/hamaki/HAM5.JPG" alt="">
+    <a href="Hamaki.html" target="_blank"><img src="./images/hamaki/HAM5.JPG" alt=""></a>
+
 
     <figcaption>Hamaki's AHM concert</figcaption>
 
-    <img src="./images/ahmed saad/AS4.JPG" alt="">
+    <a href="Asaad.html" target="_blank"><img src="./images/ahmed saad/AS4.JPG" alt=""></a>
+
 
     <figcaption>Ahmed Saad's Private concert</figcaption>
 
+
 </figure>
+
+
+
+<div class="bloglast" >
 
 
 <figure>
@@ -97,6 +106,28 @@
 
 
 </figure>
+
+</div>
+
+</div>
+
+
+<div class="contact-section" id="contactmeee" >
+
+    <h1>Contact Us</h1>
+    <div class="border" ></div>
+
+    <form class="contact-form" action="index.html" method = "post">
+<input type="text" class="contact-form-text" placeholder="Your Name">
+<input type="Email" class="contact-form-text" placeholder="Your Email">
+<input type="Phone" class="contact-form-text" placeholder="Your Phone">
+<textarea class="contact-form-text" placeholder="Your Message"></textarea>
+<input type="Submit" class="contact-form-btn" value="send" >
+
+
+
+
+    </form>
 
 
 </div>

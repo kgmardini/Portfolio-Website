@@ -154,23 +154,30 @@ header a{
 
   .camandabout {
     display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+    flex-basis: 50%;
   }
 
 
   .meinacam{
-    width: 15rem;
+    width: 16rem;
+    flex-basis: 10%;
+  
   }
 
   .minigallery img{
 
     width: 200px;
     border-radius: 14px;;
+
  
   
   }
 
   .minigallery{
     margin-top: 40px;
+
  
   }
 
@@ -193,7 +200,7 @@ header a{
   }
 
   .aboutme{
-    font-size: 40px;
+    font-size: 45px;
     color: white;
   
 
@@ -246,4 +253,83 @@ header a{
     justify-content: center;
     margin-bottom: 100px;
     margin-top: 100px;
+
+  
   }
+
+  .blogwords{
+    align-items: center;
+
+  }
+
+  .blogwords img{
+    width: 300px;
+  }
+
+  .contact-section{
+    color: white;
+  }
+
+  .contact-section h1{
+    margin-top: 90px;
+    text-align: center;
+    color: ;
+  }
+
+  .border{
+    width: 100px;
+    height: 50px;
+    
+  }
+
+  .contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  }
+
+
+  .contact-form-text{
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(17, 17, 17, 0.521);
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+
+  }
+
+
+  .contact-form-text :focus{
+    box-shadow: 0 0 10px 4px #35595e ;
+  }
+
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+
+  .contact-form-btn{
+
+    float: right;
+    border: 0;
+    background:rgba(17, 17, 17, 0.879) ;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+
+  .contact-form-btn :hover{
+    background: rgba(30, 4, 86, 0.899);
+  }
+
+

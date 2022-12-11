@@ -1,7 +1,19 @@
 body{
-    background-image: url("./images/ahmed saad/AS6.JPG")
-  
-  
+    background-image: url("./images/AS6.JPG");
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+
+
 }
 
-
+.backtohome{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Lexend', sans-serif;
+   }

@@ -1,0 +1,249 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+   background: rgb(31,25,122);
+   background: linear-gradient(90deg, rgba(97,94,144,1) 0%, rgba(5,6,10,1) 100%, rgba(0,212,255,1) 100%);
+   font-family: 'Lexend', sans-serif;
+  }
+header{
+   
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1280px;
+    margin : 0 auto; 
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul{
+    list-style: none;
+}
+header li{
+
+    display: inline;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+}
+
+  .landingwords{
+
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+  }
+
+  .landingwords h2{
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .landingwords h1{
+    font-size: 5rem;
+    margin: 0px;
+    position: relative;
+
+  }
+
+  .landingwords h1::before {
+    content: "Kgmardini";
+    position: absolute;
+    font-size: 9rem;
+    color: rgba(255, 255, 255, 0.114);
+  top: -2.5rem;
+  left: -7rem;
+  }
+
+
+  .landingwords h3{
+    font-size: 90px;
+    margin: 0px;
+  }
+  .Kgmardini{
+    color: rgba(255, 255, 255, 0.114);
+    font-size: 100px;
+  }
+  .mycaricature{
+    width: 280px;
+  }
+
+  .camerainme{
+
+    width: 600px;
+  }
+
+  .mylogo{
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .meinacam{
+
+    width: 400px;
+
+  }
+
+  .aboutmep{
+
+    color: white;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 10px;
+  }
+
+  .quote{
+
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+  }
+
+
+  .gallery {
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8rem auto;
+    width: 1280px;
+    justify-content: center;
+    
+  }
+
+  .img-container {
+    width: 300px;
+    flex-shrink: 0;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 4px;;
+
+    
+  }
+
+  .camandabout {
+    display: flex;
+  }
+
+
+  .meinacam{
+    width: 15rem;
+  }
+
+  .minigallery img{
+
+    width: 200px;
+    border-radius: 14px;;
+ 
+  
+  }
+
+  .minigallery{
+    margin-top: 40px;
+ 
+  }
+
+  .subtitle{
+    font-size: 34px;
+    
+    
+  }
+
+  .greeting{
+
+    font-size: 35px;
+    
+  }
+
+  .myname{
+
+    font-size: 100px;
+  
+  }
+
+  .aboutme{
+    font-size: 40px;
+    color: white;
+  
+
+  }
+
+  .blogwords{
+    color: white;
+  
+  }
+
+  .myworkword{
+    color: white;
+    font-size: 30px;
+
+
+    
+  }
+
+  .aboutmep{
+  
+    text-align: justify;
+    text-justify: distribute;
+  }
+
+  .aboutmep{
+  max-width: 800px;
+
+  }
+
+  .blogwords img{
+  width: 400px;
+  border-radius: 10px;
+  }
+
+  .blogwords{
+    //margin-top: 80px;
+    display: flex;
+    //justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 60px;
+  }
+  .blogwords figcaption{
+    font-size: 30px;
+    text-align: center;
+   
+  }
+
+  .gallerypart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
